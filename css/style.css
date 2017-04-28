@@ -604,4 +604,23 @@ a.fHeader{
 }
 
 
+@media (max-width: 630px) { 
+
+#reportInput input{
+    
+        font-size: 18px;
+    
+    
+}
+
+#reportInput button{
+   
+    width: 180px;
+    margin-left: -180px;
+    font-size: 17px;
+    line-height: 18px;
+}
+}
+
+
 
