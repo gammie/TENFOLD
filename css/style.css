@@ -282,7 +282,9 @@ a:visited:hover {
     color: #17a1dc;
 }
 
-.infStat {}
+.infStat {
+    flex: auto;
+}
 
 .influencerStats {
     display: -ms-flexbox;
