@@ -283,7 +283,7 @@ a:visited:hover {
 }
 
 .infStat {
-    flex: auto;
+    flex-basis: auto;
 }
 
 .influencerStats {
