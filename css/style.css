@@ -287,6 +287,8 @@ a:visited:hover {
 }
 
 .influencerStats {
+    display: -webkit-flex; /* Safari */
+-webkit-justify-content: space-around; / Safari 6.1+ */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
