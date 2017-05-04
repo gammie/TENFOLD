@@ -311,7 +311,7 @@ a:visited:hover {
     position: absolute;
     font-size: 280px;
     z-index: -2;
-    color: #e9eff8;
+    color: #deeaf6;
     left: 180px;
     top: -130px;
 }
@@ -342,7 +342,7 @@ a:visited:hover {
 .reportContainer p.reportHeader {
     color: #fff;
     font-size: 45px;
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     font-weight: 300;
     line-height: 1.3;
