@@ -549,9 +549,13 @@ a.fHeader {
 @media (max-width: 500px) {
   
     .tenFoldLogo{
-        max-width: 70%;
-        margin-top: 5px;
+        max-width: 100%;
+        margin-top: 3px;
     }
+    .entry-header-nav .logo-tf {
+   
+    max-width: 120px;
+}
     .fLogo {
         float: none;
         width: 100%;
@@ -562,10 +566,12 @@ a.fHeader {
 }
 
 
-@media (max-width: 440px) {
+@media (max-width: 361px) {
     .entry-header-nav .top-btns{
+        height: 0;
+        width: 0;
         display: none;
-        visibility: collapse;
+        visibility:hidden;
     }
     
 }
