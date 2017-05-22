@@ -484,6 +484,17 @@ a.fHeader {
 }
 
 @media (max-width: 800px) {
+    #bannerContainer {
+        min-height: 500px;
+    }
+    
+    
+    #bannerContainer h1{
+        font-size: 50px;
+        padding-top: 220px;
+    }
+    
+    
     .gIntroduction_content {
         text-align: center;
     }
@@ -537,6 +548,10 @@ a.fHeader {
 
 @media (max-width: 500px) {
   
+    .tenFoldLogo{
+        max-width: 70%;
+        margin-top: 5px;
+    }
     .fLogo {
         float: none;
         width: 100%;
@@ -545,6 +560,32 @@ a.fHeader {
     }
    
 }
+
+
+@media (max-width: 440px) {
+    .entry-header-nav .top-btns{
+        display: none;
+        visibility: collapse;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header {
     max-width: 1140px;
