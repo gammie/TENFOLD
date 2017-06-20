@@ -526,7 +526,7 @@ a.fHeader {
         width: 80%;
     }
     #bannerText h1 {
-        width: 60%;
+        width: 100%;
         float: right;
     }
     .reportContainer p.reportHeaderSmaller,
