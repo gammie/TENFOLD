@@ -520,14 +520,16 @@ a.fHeader {
         text-align: center;
     }
     #bannerContainer {
-        background-position: right;
+        background-position: left;
     }
     #bannerText {
         width: 80%;
+          background-color: rgba(255,255,255,0.8);
     }
     #bannerText h1 {
         width: 100%;
         float: right;
+      
     }
     .reportContainer p.reportHeaderSmaller,
     .bottomInput,
