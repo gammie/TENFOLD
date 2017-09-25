@@ -524,12 +524,11 @@ a.fHeader {
     }
     #bannerText {
         width: 80%;
-          background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,0.8);
     }
     #bannerText h1 {
         width: 100%;
         float: right;
-      
     }
     .reportContainer p.reportHeaderSmaller,
     .bottomInput,
@@ -545,20 +544,7 @@ a.fHeader {
 }
 
 @media (max-width: 800px) {
-    .influencerStats {
-        width: 100%;
-        display: block;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
-
-    .infStat {
-        display: inline-block;
-        padding: 10px;
-        width: 50%;
-        float: left;
-        text-align: center;
-    }
+   
     #bannerText {
         width: 100%;
     }
@@ -620,6 +606,20 @@ a.fHeader {
 }
 
 @media (max-width: 500px) {
+    .influencerStats {
+        width: 100%;
+        display: block;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .infStat {
+        display: inline-block;
+        padding: 10px;
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
     #bannerText {
         margin-top: 70px;
     }
